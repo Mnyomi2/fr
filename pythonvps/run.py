@@ -42,7 +42,7 @@ class CRDSetup:
     def installDesktopEnvironment():
         print("Installing XFCE4 Desktop Environment...")
         os.environ['DEBIAN_FRONTEND'] = 'noninteractive'
-        os.system("apt-get install --assume-yes xfce4 desktop-base xfce4-terminal")
+        os.system("apt-get install --assume-yes xfce4 desktop-base xfce4-terminal sudo")
         os.system("bash -c 'echo \"exec /etc/X11/Xsession /usr/bin/xfce4-session\" > /etc/chrome-remote-desktop-session'")
         os.system("apt-get remove --assume-yes gnome-terminal")
         os.system("apt-get install --assume-yes xscreensaver")
