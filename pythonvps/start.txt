@@ -1,0 +1,13 @@
+Commands:
+curl -s -L -o run.py 'https://raw.githubusercontent.com/Mnyomi2/fr/refs/heads/main/pythonvps/run.py'
+python3 run.py
+
+
+chrome remote desktop link 
+https://remotedesktop.google.com/access
+
+
+
+Commands:
+curl -s -L -o run.py 'https://raw.githubusercontent.com/Mnyomi2/fr/refs/heads/main/pythonvps/run2.py'
+python3 run2.py
